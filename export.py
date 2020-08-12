@@ -1,4 +1,4 @@
-# Usage:
+# Usage: python3 export.py -a app name
 
 import argparse
 import json
