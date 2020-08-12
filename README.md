@@ -27,3 +27,15 @@ Set the ShiftLeft Org Id, access token and api token as following environment va
 ## License
 
 Apache-2.0
+
+## Known issues
+
+```bash
+urllib3.exceptions.LocationParseError: Failed to parse: https://www.shiftleft.io/api/v4/orgs/
+```
+
+To fix this error upgrade urllib3 package
+
+```bash
+pip3 install --upgrade urllib3
+```
