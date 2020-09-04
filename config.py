@@ -15,3 +15,19 @@ ngsast_logo = """
 ██║ ╚████║╚██████╔╝    ███████║██║  ██║███████║   ██║
 ╚═╝  ╚═══╝ ╚═════╝     ╚══════╝╚═╝  ╚═╝╚══════╝   ╚═╝
 """
+
+# This is WIP
+sl_owasp_category = {
+    "SQL Injection": "sqli",
+    "LDAP Injection": "ldapi",
+    "XPath Injection": "xpathi",
+    "Cookie Injection": "securecookie",
+    "Weak Hash": "hash",
+    "Open Redirect": "pathtraver",
+    "XSS": "xss",
+    "Remote Code Execution": "cmdi",
+    "Sensitive Data Leak": "trustbound",
+    "Insecure Cookie": "securecookie",
+    "Directory Traversal": "pathtraver",
+    "Broken Authentication": "crypto",
+}
